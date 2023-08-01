@@ -40,7 +40,7 @@ char *_strtok(char *str, const char *delim)
 		return (NULL);
 	for (i = 0; tokens[i] != '\0'; i++)
 	{
-		if (check_delim(tokens[i], delim) == 0)
+		if (delimiter(tokens[i], delim) == 0)
 			break;
 	}
 	if (new_token[i] == '\0' || new_token[i] == '#')
