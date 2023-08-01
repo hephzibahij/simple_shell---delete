@@ -35,7 +35,6 @@ char **string_cmd(char *buffer, const char *s);
 void free_rp(char **cmd);
 void free_exit(char **cmd);
 
-size_t delimiter(char c, const char *str);
-char *_strtok(char *str, const char *delim);
+int check_delim(char token, const char *delim);
 
 #endif

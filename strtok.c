@@ -2,7 +2,6 @@
 
 /**
  * delimiter - function that checks if a character matchs any character
- * check_delim - functions to be named
  * @c: character to check
  * @str: string of delimiters
  * Return: 1 on success, 0 on failure
@@ -23,6 +22,7 @@ size_t delimiter(char c, const char *str)
 
 /**
  * _strtok - function that extracts tokens of a string
+ * check_delim - functions to be named
  * @str: string
  * @delim: delimiter
  * Return: pointer to the next token or NULL
